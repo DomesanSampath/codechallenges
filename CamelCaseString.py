@@ -8,7 +8,6 @@ k=0
 for i in range(0,len(x)):
     y.append(x[i])
 print(y)
-
 #Converting to CamelCase Letter
 z=len(y)
 while k<z:
@@ -18,8 +17,6 @@ while k<z:
         y[k]=y[k].upper()
         z=z-1  #if element gets deleted size reduced by 1
     k=k+1
-               
-
 #Printing CamelCase String from List
 for j in range(0,len(y)):
     r=r+y[j]
