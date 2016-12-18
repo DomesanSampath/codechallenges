@@ -3,7 +3,7 @@ z=input("Enter Time II in HH:MM:SS:")
 #function to convert entire time into seconds
 def mytime(k):
       y=[]
-      #Getting Value in List from String
+      #Getting Value in List from Time Input
       for i in range(0,len(k)):
           y.append(k[i])
       hours=int(y[0]+y[1])
