@@ -1,6 +1,6 @@
 #Program Will Return Number:Is Happy Number, if not so, It will return Nothing
 #It neglects 1 not as a Happy Number,by raising ValueError
-x=int(input("Enter an Integer Limit:"))
+x=int(input("Enter an Integer:"))
 if x==1:
     raise ValueError("1 Is Not a Happy Number")
 y=x
