@@ -12,7 +12,6 @@ while y>=0:
 for i in range(0,len(z)):
     f.append(z[i])
 vowel=['a','e','i','o','u','A','E','I','O','U']
-print(vowel)
 #deleting vowels from string, and Printing the String
 count=len(f)
 g=0
